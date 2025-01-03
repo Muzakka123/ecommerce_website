@@ -30,7 +30,7 @@ const Page: React.FC = () => { // Changed "page" to "Page"
       {/* Button to toggle cart visibility */}
       <button
         onClick={toggleCart}
-        className="fixed top-4 right-4 bg-[#2A254B] text-white px-4 py-2 rounded-md z-10"
+        className="fixed top-4 right-4 bg-[white] text-white px-4 py-2 rounded-md z-10"
       >
         {isCartVisible ? "Hide Cart" : "Show Cart"}
       </button>
